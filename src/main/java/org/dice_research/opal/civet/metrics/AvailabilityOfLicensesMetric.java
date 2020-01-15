@@ -23,6 +23,17 @@ import org.dice_research.opal.common.vocabulary.Opal;
  * The AvailabilityOfLicensesMetric provides a rating to a dataset
  * based on the number of available licenses/rights in a dataset.
  * 
+ * This metric first checks if the provided dataset has any rights
+ * or license information available in the form of predicates 
+ * dct:rights or dct:license respectively.
+ * 
+ * If license/rights information not available at dataset then check 
+ * all the available distributions in a dataset for license information
+ * and based on that a star rating is provided.
+ * 
+ * @see https://www.w3.org/TR/vocab-dcat-1/#Property:catalog_license
+ * @see https://www.w3.org/TR/vocab-dcat-1/#Property:distribution_rights
+ * 
  * @author Gourab Sahu
  */
 public class AvailabilityOfLicensesMetric implements Metric {
