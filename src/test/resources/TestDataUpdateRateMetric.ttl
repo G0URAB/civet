@@ -1,0 +1,824 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_debat_dorientations_budgetaires_2018>
+        a                       dcat:Dataset ;
+        dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/UNKNOWN> ;
+        dct:description         "Le présent document a pour objectif d'apporter l’ensemble des informations budgétaires et financières disponibles à ce jour pour vous permettre de décider de l’évolution des politiques publiques menées sur l'Agglomération Plaine Vallée."@fr ;
+        dct:issued              "2019-01-16T02:53:16.624000" ;
+        dct:publisher           [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Communauté d'Agglomération Plaine Vallée"
+                                ] ;
+        dct:publisher           [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Communauté d'Agglomération Plaine Vallée"
+                                ] ;
+        dct:title               "Débat d'orientations budgétaires - 2018"@fr ;
+        dcat:distribution       <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_26b635f6_8207_4276_a32c_06366fd455d2> ;
+        dcat:keyword            "orientation"@fr , "budget"@fr , "budgetaire"@fr , "dob"@fr , "intercommunalite"@fr , "finances"@fr , "debat"@fr , "2018"@fr ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2076670> , <http://projekt-opal.de/measurement2076676> , <http://projekt-opal.de/measurement2076671> , <http://projekt-opal.de/measurement2076673> , <http://projekt-opal.de/measurement2076672> , <http://projekt-opal.de/measurement2076675> , <http://projekt-opal.de/measurement2076674> ;
+        <http://xmlns.com/foaf/0.1/page>
+                <https://www.data.gouv.fr/fr/datasets/debat-dorientations-budgetaires-2018/> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_declaration_du_profil_acheteur_35>
+        a                       dcat:Dataset ;
+        dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/IRREGULAR> ;
+        dct:description         "Déclaration du profil acheteur"@fr ;
+        dct:issued              "2019-01-23T15:34:16.700000" ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "2020-01-23" ;
+                                  <http://schema.org/startDate>  "2019-01-23"
+                                ] ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "2020-01-23" ;
+                                  <http://schema.org/startDate>  "2019-01-23"
+                                ] ;
+        dct:title               "Déclaration du profil acheteur"@fr ;
+        dcat:contactPoint       [ a       <http://www.w3.org/2006/vcard/ns#Kind> ;
+                                  <http://www.w3.org/2006/vcard/ns#fn>
+                                          "commande publique"
+                                ] ;
+        dcat:contactPoint       [ a       <http://www.w3.org/2006/vcard/ns#Kind> ;
+                                  <http://www.w3.org/2006/vcard/ns#fn>
+                                          "commande publique"
+                                ] ;
+        dcat:distribution       <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_1effa037_c499_497d_934b_b620e8b877ef> ;
+        dcat:keyword            "decp"@fr ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2077161> , <http://projekt-opal.de/measurement2077162> , <http://projekt-opal.de/measurement2077163> , <http://projekt-opal.de/measurement2077164> , <http://projekt-opal.de/measurement2077165> , <http://projekt-opal.de/measurement2077166> , <http://projekt-opal.de/measurement2077160> ;
+        <http://xmlns.com/foaf/0.1/page>
+                <https://www.data.gouv.fr/fr/datasets/declaration-du-profil-acheteur-35/> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_defibrillateurs_presents_sur_la_commune_de_sixt_sur_aff_en_2018>
+        a                       dcat:Dataset ;
+        dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+        dct:description         "Localisation du parc de défibrillateurs géré par la commune de Sixt-sur-Aff. Le défibrillateur du complexe sportif n'est pas accessible 24h/24."@fr ;
+        dct:issued              "2018-12-20T15:47:31.496000" ;
+        dct:publisher           [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Commune de Sixt-sur-Aff"
+                                ] ;
+        dct:publisher           [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Commune de Sixt-sur-Aff"
+                                ] ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "2018-12-31" ;
+                                  <http://schema.org/startDate>  "2018-01-01"
+                                ] ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "2018-12-31" ;
+                                  <http://schema.org/startDate>  "2018-01-01"
+                                ] ;
+        dct:title               "Défibrillateurs présents sur la commune de Sixt-sur-Aff en 2018"@fr ;
+        dcat:distribution       <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_c5bfe7d6_3550_4b7a_946c_bef35001eafc> ;
+        dcat:keyword            "environnement-et-sante"@fr , "defibrillateur"@fr , "defibrilateurs"@fr ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2079503> , <http://projekt-opal.de/measurement2079501> , <http://projekt-opal.de/measurement2079502> , <http://projekt-opal.de/measurement2079504> , <http://projekt-opal.de/measurement2079500> , <http://projekt-opal.de/measurement2079499> , <http://projekt-opal.de/measurement2079498> ;
+        <http://xmlns.com/foaf/0.1/page>
+                <https://www.data.gouv.fr/fr/datasets/defibrillateurs-presents-sur-la-commune-de-sixt-sur-aff-en-2018/> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de68f4fc_2886_4775_9537_2bf21d81dff7>
+        a                       dcat:Dataset ;
+        dct:accrualPeriodicity  <http://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequencyCode/QUARTERLY> ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2002/07/owl#versionInfo>
+                                          "7.4"@de ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "ETRS89 / UTM zone 32N (EPSG:25832)"@de
+                                ] ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2002/07/owl#versionInfo>
+                                          "7.4"@de ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "ETRS89 / UTM zone 32N (EPSG:25832)"@de
+                                ] ;
+        dct:description         "Die Bebauungspläne der Stadt Papenburg mit den Ortsteilen Papenburg, Bokel, Tunxdorf, Nenndorf, Aschendorf und Herbrum.\n\nDas Datum der Rechtskraft ist heute nicht mehr einwandfrei nachweisbar. Der Plan ist jedoch trotzdem rechtsgültig."@de ;
+        dct:identifier          "https://registry.gdi-de.org/id/de.ni/20cf9e5f-8603-4b11-ba62-0f11a74f84ca"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        dct:isPartOf            [ dct:identifier  "a4aefd0a-ce5c-4748-8f29-a9b46813950d" ] ;
+        dct:isPartOf            [ dct:identifier  "a4aefd0a-ce5c-4748-8f29-a9b46813950d" ] ;
+        dct:issued              "1955-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:language            <http://publications.europa.eu/resource/authority/language/GER> ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Die Daten wurden teilweise aus analogen B-Plänen digitalisiert."@de
+                                ] ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Die Daten wurden teilweise aus analogen B-Plänen digitalisiert."@de
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>52.99798087585 7.2870334818515</gml:lowerCorner><gml:upperCorner>53.122675683305 7.5276340845528</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral> , "POLYGON((7.2870334818515 53.122675683305,7.5276340845528 53.122675683305,7.5276340845528 52.99798087585,7.2870334818515 52.99798087585,7.2870334818515 53.122675683305))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>52.99798087585 7.2870334818515</gml:lowerCorner><gml:upperCorner>53.122675683305 7.5276340845528</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral> , "POLYGON((7.2870334818515 53.122675683305,7.5276340845528 53.122675683305,7.5276340845528 52.99798087585,7.2870334818515 52.99798087585,7.2870334818515 53.122675683305))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry>
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+                                          [] 
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+                                          [] 
+                                ] ;
+        dct:subject             <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre> ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                  <http://schema.org/startDate>  "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+                                ] ;
+        dct:temporal            [ a                              dct:PeriodOfTime ;
+                                  <http://schema.org/endDate>    "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                  <http://schema.org/startDate>  "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+                                ] ;
+        dct:title               "Bebauungsplan Nr. 2 Bokel \"Kerstens Tannen\" Stadt Papenburg"@de ;
+        dct:type                <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
+        dcat:keyword            "inspireidentifiziert"@de , "BPL"@de , "Bebauungspläne"@de , "B-Plan"@de ;
+        dcat:landingPage        <http://bplan.papenburg.de/2BOK/2BOK_satz.zip> ;
+        dcat:theme              <http://eurovoc.europa.eu/100156> , <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <http://inspire.ec.europa.eu/theme/lu> , <http://eurovoc.europa.eu/4630> ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bebauungsplan"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bauleitplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bauleitplanung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtentwicklung"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Bebauungsplan"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Stadtentwicklung"
+                                ] ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2076725> , <http://projekt-opal.de/measurement2076723> , <http://projekt-opal.de/measurement2076722> , <http://projekt-opal.de/measurement2076720> , <http://projekt-opal.de/measurement2076719> , <http://projekt-opal.de/measurement2076724> , <http://projekt-opal.de/measurement2076721> ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/author> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/author> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "de68f4fc-2886-4775-9537-2bf21d81dff7" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/GER> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "de68f4fc-2886-4775-9537-2bf21d81dff7" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/GER> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] .
+
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_ded2b43b_abec_49b1_9eb1_44d418ec7fb4>
+        a                       dcat:Dataset ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Spatial resolution (equivalent scale): 1:1000"@en ;
+        dct:accrualPeriodicity  <http://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequencyCode/MONTHLY> ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "2180"@pl
+                                ] ;
+        dct:conformsTo          [ dct:issued  "2010-12-08"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                  dct:title   "Rozporządzenie Komisji (UE) nr 1089/2010 z dnia 23 listopada 2010 r. w sprawie wykonania dyrektywy 2007/2/WE Parlamentu Europejskiego i Rady w zakresie interoperacyjności zbiorów i usług danych przestrzennych"@pl
+                                ] ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "2180"@pl
+                                ] ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          [ dct:issued  "2013-12-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                  dct:title   "D2.8.III.4 INSPIRE Data Specification on Land Use – Technical Guidelines"@pl
+                                ] ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          []  ;
+        dct:created             "2008-11-20"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:creator             []  ;
+        dct:creator             [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://www.w3.org/ns/locn#address>
+                                          []  ;
+                                  <http://xmlns.com/foaf/0.1/homepage>
+                                          <http://www.karpacz.pl> ;
+                                  <http://xmlns.com/foaf/0.1/mbox>
+                                          <mailto:kancelaria@karpacz.eu> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Urząd Miejski w Karpaczu" ;
+                                  <http://xmlns.com/foaf/0.1/phone>
+                                          <tel:+%2B48757619150>
+                                ] ;
+        dct:creator             [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                                  <http://www.w3.org/ns/locn#address>
+                                          []  ;
+                                  <http://xmlns.com/foaf/0.1/homepage>
+                                          <http://www.karpacz.pl> ;
+                                  <http://xmlns.com/foaf/0.1/mbox>
+                                          <mailto:kancelaria@karpacz.eu> ;
+                                  <http://xmlns.com/foaf/0.1/name>
+                                          "Urząd Miejski w Karpaczu" ;
+                                  <http://xmlns.com/foaf/0.1/phone>
+                                          <tel:+%2B48757619150>
+                                ] ;
+        dct:description         "Nazwa: W sprawie uchwalenia zmiany miejscowego planu  zagospodarowania przestrzennego jednostki A – Centrum Karpacza, obejmującej teren działek nr 256/4, nr 256/1 (obręb Karpacz – 4) przy ul. Parkowej.. Uchwała: XXIII/250/08. Data uchwały: 2008-11-20. Gmina: mKarpacz. Skala rysunku: 1:1000"@pl ;
+        dct:identifier          "PL.ZIPPZP.4083/020601.XXIII/250/08" ;
+        dct:language            <http://publications.europa.eu/resource/authority/language/POL> ;
+        dct:provenance          []  ;
+        dct:provenance          []  ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Plan w postaci rastrowej. Załącznik mapowy został zeskanowany, skalibrowany i udostępniany jest za pomocą usługi przeglądania (WMS) na gminnym portalu mapowym.\n\t\tAkt uchwalający plan: uchwała XXIII/250/08 z dn. 2008-11-20 ()"@pl
+                                ] ;
+        dct:spatial             [ a  dct:Location ] ;
+        dct:spatial             []  ;
+        dct:spatial             []  ;
+        dct:subject             <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/planningCadastre> ;
+        dct:title               "mKarpacz - MPZP 021: W sprawie uchwalenia zmiany miejscowego planu  zagospodarowania przestrzennego jednostki A – Centrum Karpacza, obejmującej teren działek nr 256/4, nr 256/1 (obręb Karpacz – 4) przy ul. Parkowej. (020601_1, iMPZP)"@pl ;
+        dct:type                <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
+        dcat:distribution       <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_f8297f10_67d2_4cd3_a5e2_409e23714040> ;
+        dcat:theme              <http://eurovoc.europa.eu/4630> , <http://inspire.ec.europa.eu/theme/lu> , <http://publications.europa.eu/resource/authority/data-theme/AGRI> , <http://eurovoc.europa.eu/100156> ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Struktura przestrzenna"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "MPZP"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Struktura funkcjonalna"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "MPZP"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Akt planowania przestrzennego"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Struktura przestrzenna"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Plan zagospodarowania"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Tereny zabudowy mieszkaniowej"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Plan miejscowy"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Plan zagospodarowania"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Struktura funkcjonalna"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Zasięg aktu planowania przestrzennego"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2079486> , <http://projekt-opal.de/measurement2079489> , <http://projekt-opal.de/measurement2079484> , <http://projekt-opal.de/measurement2079485> , <http://projekt-opal.de/measurement2079488> , <http://projekt-opal.de/measurement2079490> , <http://projekt-opal.de/measurement2079487> ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                []  ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                []  ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/custodian> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                []  ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/resourceProvider> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/resourceProvider> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a       dcat:CatalogRecord ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "ded2b43b-abec-49b1-9eb1-44d418ec7fb4" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/POL> ;
+                  dct:modified       "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "ded2b43b-abec-49b1-9eb1-44d418ec7fb4" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/POL> ;
+                  dct:modified       "2018-07-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/page>
+                <http://mpzp.igeomap.pl/cgi-bin/020601?service=WMS&version=1.3.0&request=GetCapabilities> , <http://karpacz.e-mapa.net> .
+
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_de7414f5fdc7eee3_85c8205f_27eae5db_ff90930e_bd567a43a3521eb8b2250d88>
+        a                       dcat:Dataset ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Spatial resolution (equivalent scale): 1:1000"@en ;
+        dct:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/CONT> ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          []  ;
+        dct:conformsTo          [ dct:issued  "2012-01-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                  dct:title   "Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 9 stycznia 2012 r. w sprawie ewidencji miejscowości, ulic i adresów (Dz. U. z 2012 r. nr 0, poz. 125)."@pl
+                                ] ;
+        dct:conformsTo          [ dct:issued  "2012-01-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                                  dct:title   "Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 9 stycznia 2012 r. w sprawie ewidencji miejscowości, ulic i adresów (Dz. U. z 2012 r. nr 0, poz. 125)."@pl
+                                ] ;
+        dct:conformsTo          [ dct:type  <http://inspire.ec.europa.eu/metadata-codelist/SpatialReferenceSystem> ;
+                                  <http://www.w3.org/2002/07/owl#versionInfo>
+                                          "7.9"@pl ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "2180"@pl
+                                ] ;
+        dct:description         "Ewidencja miejscowości ulic i adresów prowadzona jest w systemie teleinformatycznym iMPA (internetowy Manager Punktów Adresowych) firmy Geo-System Sp. z o.o. i zawiera:\nnazwy miejscowości oraz dane określające położenie tych miejscowości pochodzące z państwowego rejestru nazw geograficznych,\nnazwy ulic i placów oraz dane określające położenie tych ulic i placów\nidentyfikatory miejscowości, ulic i placów pochodzące z krajowego rejestru urzędowego podziału terytorialnego kraju\ndodatkowe tradycyjne nazwy miejscowości, ulic i placów w języku mniejszości, jeżeli zachodzą okoliczności, o których mowa w art 12 ustawy z dnia 6 stycznia 2005 r. o mniejszościach narodowych i etnicznych oraz o języku regionalnym (Dz. U. Nr 17, poz. 141 i Nr 62, poz. 550 oraz z 2009 r. Nr 31, poz. 206 i Nr 157, poz. 1241)\ndane adresowe określające numery porządkowe budynków mieszkalnych oraz innych budynków przeznaczonych do stałego lub czasowego przebywania ludzi, w tym w szczególności budynków: biurowych, ogólnodostępnych wykorzystywanych na cele kultury i kultury fizycznej, o charakterze edukacyjnym, szpitali i opieki medycznej oraz przeznaczonych do działalności gospodarczej, wybudowanych, w trakcie budowy i prognozowanych do wybudowania, kody pocztowe oraz położenie budynków w państwowym systemie odniesień przestrzennych"@pl ;
+        dct:identifier          "PL.ZIPIN.1484/101607_2.EMUiA" ;
+        dct:language            <http://publications.europa.eu/resource/authority/language/POL> ;
+        dct:modified            "2014-01-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Ewidencja miejscowości ulic i adresów została założona na podstawie:\nnumeracji porządkowej nieruchomości,\nwykazu urzędowych nazw miejscowości,\ndanych państwowego rejestru nazw geograficznych,\ndanych krajowego rejestru urzędowego podziału terytorialnego kraju,\newidencji gruntów i budynków,\nrejestrów meldunkowych,\nuchwał rady gminy w sprawie przebiegu oraz nadania nazw ulic i placów.\nProwadzona jest w systemie iMPA (internetowy Manager Punktów Adresowych) firmy Geo-System Sp. z o.o."@pl
+                                ] ;
+        dct:provenance          []  ;
+        dct:provenance          [ a       dct:ProvenanceStatement ;
+                                  <http://www.w3.org/2000/01/rdf-schema#label>
+                                          "Ewidencja miejscowości ulic i adresów została założona na podstawie:\nnumeracji porządkowej nieruchomości,\nwykazu urzędowych nazw miejscowości,\ndanych państwowego rejestru nazw geograficznych,\ndanych krajowego rejestru urzędowego podziału terytorialnego kraju,\newidencji gruntów i budynków,\nrejestrów meldunkowych,\nuchwał rady gminy w sprawie przebiegu oraz nadania nazw ulic i placów.\nProwadzona jest w systemie iMPA (internetowy Manager Punktów Adresowych) firmy Geo-System Sp. z o.o."@pl
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "POLYGON((19.720767974854 51.7102394104,19.882663726807 51.7102394104,19.882663726807 51.591541290283,19.720767974854 51.591541290283,19.720767974854 51.7102394104))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry> , "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>51.5915412902832 19.7207679748535</gml:lowerCorner><gml:upperCorner>51.7102394104004 19.8826637268066</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral>
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "POLYGON((19.720767974854 51.7102394104,19.882663726807 51.7102394104,19.882663726807 51.591541290283,19.720767974854 51.591541290283,19.720767974854 51.7102394104))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry> , "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>51.5915412902832 19.7207679748535</gml:lowerCorner><gml:upperCorner>51.7102394104004 19.8826637268066</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral>
+                                ] ;
+        dct:spatial             [ a       dct:Location ;
+                                  <http://www.w3.org/ns/locn#geometry>
+                                          "POLYGON((19.720767974854 51.7102394104,19.882663726807 51.7102394104,19.882663726807 51.591541290283,19.720767974854 51.591541290283,19.720767974854 51.7102394104))"^^<http://www.openlinksw.com/schemas/virtrdf#Geometry> , "<gml:Envelope srsName=\"http://www.opengis.net/def/EPSG/0/4326\"><gml:lowerCorner>51.5915412902832 19.7207679748535</gml:lowerCorner><gml:upperCorner>51.7102394104004 19.8826637268066</gml:upperCorner></gml:Envelope>"^^<http://www.opengis.net/ont/geosparql#gmlLiteral>
+                                ] ;
+        dct:subject             <http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/location> ;
+        dct:title               "Ewidencja miejscowości, ulic i adresów, gmina Rokiciny (101607, iMPA)"@pl ;
+        dct:type                <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
+        dcat:landingPage        <http://rokiciny.e-mapa.net> ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Numer porządkowy"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Osada"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Miasto"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Miejscowość"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Osiedle"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Jednostka administracyjna"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Miasto"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Ulica"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Kolonia"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Część miasta"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Część wsi"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Wieś"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "EMUiA"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Kod pocztowy"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "EMUiA"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Osada"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Kod pocztowy"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Kod pocztowy"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Osiedle"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Przysiółek"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Osiedle"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Dzielnica"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Punkt adresowy"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Wieś"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Adres"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Miejscowość"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Numer porządkowy"
+                                ] ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Część miasta"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Wieś"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              [ a       <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                  <http://www.w3.org/2004/02/skos/core#inScheme>
+                                          []  ;
+                                  <http://www.w3.org/2004/02/skos/core#prefLabel>
+                                          "Część miasta"
+                                ] ;
+        dcat:theme              []  ;
+        dcat:theme              []  ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2077656> , <http://projekt-opal.de/measurement2077651> , <http://projekt-opal.de/measurement2077650> , <http://projekt-opal.de/measurement2077654> , <http://projekt-opal.de/measurement2077652> , <http://projekt-opal.de/measurement2077655> , <http://projekt-opal.de/measurement2077653> ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                []  ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/resourceProvider> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/resourceProvider> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                []  ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                [ a         <http://www.w3.org/ns/prov#Attribution> ;
+                  dct:type  <http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/custodian> ;
+                  <http://www.w3.org/ns/prov#agent>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#qualifiedAttribution>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                []  ;
+        <http://www.w3.org/ns/prov#wasUsedBy>
+                [ a       <http://www.w3.org/ns/prov#Activity> ;
+                  <http://www.w3.org/ns/prov#generated>
+                          []  ;
+                  <http://www.w3.org/ns/prov#qualifiedAssociation>
+                          [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                []  ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "de7414f5fdc7eee3-85c8205f-27eae5db-ff90930e-bd567a43a3521eb8b2250d88" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/POL> ;
+                  dct:modified       "2018-10-31"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/isPrimaryTopicOf>
+                [ a                  dcat:CatalogRecord ;
+                  dct:identifier     "de7414f5fdc7eee3-85c8205f-27eae5db-ff90930e-bd567a43a3521eb8b2250d88" ;
+                  dct:language       <http://publications.europa.eu/resource/authority/language/POL> ;
+                  dct:modified       "2018-10-31"^^<http://www.w3.org/2001/XMLSchema#date> ;
+                  dct:source         []  ;
+                  <http://www.w3.org/2011/content#characterEncoding>
+                          "UTF-8" ;
+                  dcat:contactPoint  [] 
+                ] ;
+        <http://xmlns.com/foaf/0.1/page>
+                <http://www.punktyadresowe.pl/cgi-bin/wms/101607?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0> .
+
