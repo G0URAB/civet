@@ -9,9 +9,9 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.vocabulary.DCAT;
 import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.SKOS;
-import org.dice_research.opal.civet.TestData;
+import org.dice_research.opal.test_cases.OpalTestCases;
+import org.dice_research.opal.test_cases.TestCase;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -20,16 +20,6 @@ import org.junit.Test;
  * @author Adrian Wilke
  */
 public class CategorizationMetricTest {
-
-	TestData testdata;
-
-	private static final String TEST_EDP_ICE = "Europeandataportal-Iceland.ttl";
-	private static final String TEST_EDP_ICE_DATASET = "http://projekt-opal.de/dataset/http___europeandataportal_eu_set_data__3dff988d_59d2_415d_b2da_818e8ef3111701";
-
-	@Before
-	public void setUp() throws Exception {
-		testdata = new TestData();
-	}
 
 	/**
 	 * Tests cases.
@@ -99,16 +89,18 @@ public class CategorizationMetricTest {
 	 * Tests example dataset.
 	 */
 	@Test
-	public void testEdpIce() throws Exception {
+	public void testDatasets() throws Exception {
+
+		TestCase testCase = OpalTestCases.getTestCase("opal-2019-06-24", "edp-corine-iceland");
 
 		// Compute stars
 		CategorizationMetric metric = new CategorizationMetric();
-		Integer stars = metric.compute(testdata.getModel(TEST_EDP_ICE), TEST_EDP_ICE_DATASET);
+		Integer stars = metric.compute(testCase.getModel(), testCase.getDatasetUri());
 
-		// Keywords of correct type in test dataset:
-		// "Iceland" , "Downloadable Data" , "land use" , "land cover"
-		// Should result in 3 stars
-		Assert.assertEquals(TEST_EDP_ICE, 3, stars.intValue());
+		// Keywords given: 2 stars
+		// Keywords are literals: +1 star
+		// Theme available: +1 star
+		Assert.assertEquals(testCase.getDatasetUri(), 4, stars.intValue());
 	}
 
 }
