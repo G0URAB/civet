@@ -1,0 +1,35 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/https___ckan_govdata_de_34a3e19c_323f_474a_b21b_b03be924093a3>
+        a                  dcat:Dataset ;
+        dct:description    "Dieser Datensatz umfasst die Standorte der Tanzschulen in der Hanse- und Universitätsstadt Rostock mit Informationen zu Adresse, Bezeichnung, Betreiber, Barrierefreiheit, Öffnungszeiten und Kontaktdaten. Die Ressourcen werden in der Regel im folgenden Zeitabstand aktualisiert: 180 Tage" ;
+        dct:identifier     "521be01f-6939-4f5e-8a0c-cb77ed3206e0" ;
+        dct:issued         "2019-03-15 19:15:14.434324" , "2017-08-01T10:46:45.590516" , "2019-03-15 19:15:14.434341" , "2019-03-15 19:15:14.434358" , "2019-03-15 19:15:14.434348" , "2019-03-15 19:15:14.434345" , "2019-03-15 19:15:14.434351" , "2019-03-15 19:15:14.434355" ;
+        dct:license        "" ;
+        dct:modified       "2018-10-08T11:12:56.698296" ;
+        dct:title          "Tanzschulen" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/https___ckan_govdata_de_07146e1e_f69c_49f3_894c_bf2db36d11d73> , <http://projekt-opal.de/distribution/https___ckan_govdata_de_2fba9c4a_4bd4_4941_bd01_cc99291814a43> ;
+        dcat:keyword       "Bildung" , "Schule" , "Weiterbildung" , "Freizeit" , "Schulunterricht" , "Unterricht" , "Gesellschaft" ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement37922> , <http://projekt-opal.de/measurement37924> , <http://projekt-opal.de/measurement37923> , <http://projekt-opal.de/measurement37920> , <http://projekt-opal.de/measurement37925> , <http://projekt-opal.de/measurement37921> , <http://projekt-opal.de/measurement37926> .
+	
+	
+<http://projekt-opal.de/distribution/https___ckan_govdata_de_07146e1e_f69c_49f3_894c_bf2db36d11d73>
+        a                 dcat:Distribution ;
+        dct:description   "" ;
+        dct:format        "http://publications.europa.eu/resource/authority/file-type/KML" ;
+        dct:title         "Tanzschulen" ;
+        dcat:accessURL    "https://geo.sv.rostock.de/download/opendata/tanzschulen/tanzschulen.kml" ;
+        dcat:byteSize     15401 ;
+        dcat:downloadURL  "https://geo.sv.rostock.de/download/opendata/tanzschulen/tanzschulen.kml" ;
+        dcat:mediaType    "https://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml" .	
+
+<http://projekt-opal.de/distribution/https___ckan_govdata_de_2fba9c4a_4bd4_4941_bd01_cc99291814a43>
+        a                 dcat:Distribution ;
+        dct:description   "" ;
+        dct:format        "http://publications.europa.eu/resource/authority/file-type/GML" ;
+        dct:title         "Tanzschulen" ;
+        dcat:byteSize     17762 ;
+        dcat:downloadURL  "https://geo.sv.rostock.de/download/opendata/tanzschulen/tanzschulen.gml" ;
+        dcat:mediaType    "https://www.iana.org/assignments/media-types/application/gml+xml" .		

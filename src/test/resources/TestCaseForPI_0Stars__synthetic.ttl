@@ -1,0 +1,26 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland0>
+        a                  dcat:Dataset ;
+        dct:description    "Die Raster wurden aus aus den jährlichen Rastern des Vegetationsbeginns gemittelt. Der Vegetationsbeginn wird über die phänologische Phase Forsythie - Beginn der Blüte festgelegt und kennzeichnet den Beginn des Erstfrühlings. Weitere Informationen: https://opendata.dwd.de/climate_environment/CDC/grids_germany/multi_annual/vegetation_begin/BESCHREIBUNG_gridsgermany_multi_annual_vegetation_begin_de.pdf" ;
+        dct:issued         "1.1.1992 - Vorjahr" ;
+        dct:title          "Vieljährliche Raster des mittleren Vegetationsbeginns in Deutschland" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_10> , <http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_20> , <http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_00> ;
+        dcat:theme         <http://projeckt-opal.de/theme/mcloud/climateAndWeather> ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement2221> , <http://projekt-opal.de/measurement2222> , <http://projekt-opal.de/measurement2225> , <http://projekt-opal.de/measurement2226> , <http://projekt-opal.de/measurement2223> , <http://projekt-opal.de/measurement2220> , <http://projekt-opal.de/measurement2224> .
+				
+<http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_10>
+		a                 dcat:Distribution ;
+		dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf>.
+		
+
+<http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_20>
+        a               dcat:Distribution ;
+        dct:license     <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf>.
+
+
+<http://projekt-opal.de/distribution/_mcloudde_vieljhrlicherasterdesmittlerenvegetationsbeginnsindeutschland_00>
+        a                 dcat:Distribution ;
+        dct:license       <http://www.geodatenzentrum.de/docpdf/geonutzv.pdf>.

@@ -1,0 +1,135 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/https___europeandataportal_eu_set_data_464819ee_0d2a_4ca4_b5a4_026e34488404>
+        a                  dcat:Dataset ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/contributorID>
+                "http://suche.transparenz.hamburg.de/" ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/maintainer>
+                [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                  <http://xmlns.com/foaf/0.1/name>
+                          "Bezirksämter, Bezirksamt Altona, Dezernat 4 - Wirtschaft, Bauen und Umwelt, Fachamt Stadt- und Landschaftsplanung"
+                ] ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/maintainer>
+                [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                  <http://xmlns.com/foaf/0.1/name>
+                          "Bezirksämter, Bezirksamt Altona, Dezernat 4 - Wirtschaft, Bauen und Umwelt, Fachamt Stadt- und Landschaftsplanung"
+                ] ;
+        dct:creator        [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Landesbetrieb Geoinformation und Vermessung"
+                           ] ;
+        dct:creator        [ a       <http://xmlns.com/foaf/0.1/Organization> ;
+                             <http://xmlns.com/foaf/0.1/name>
+                                     "Landesbetrieb Geoinformation und Vermessung"
+                           ] ;
+        dct:description    "Bezirk: Altona, Stadtteil: Rissen, Ortsteil: 226  \nPlanbezirk: Buschredder - Ortwinstieg - Strübelhorn" ;
+        dct:identifier     "464819EE-0D2A-4CA4-B5A4-026E34488404" ;
+        dct:issued         "2018-11-10T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dct:modified       "2018-11-18T16:22:04.876694"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dct:source         "HMDK" ;
+        dct:spatial        [ a       dct:Location ;
+                             <http://www.w3.org/ns/locn#geometry>
+                                     "{\"type\": \"polygon\", \"coordinates\": [[[10.326304, 53.394985], [10.326304, 53.964153], [8.420551, 53.964153], [8.420551, 53.394985], [10.326304, 53.394985]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+                           ] ;
+        dct:spatial        [ a       dct:Location ;
+                             <http://www.w3.org/ns/locn#geometry>
+                                     "{\"type\": \"polygon\", \"coordinates\": [[[10.326304, 53.394985], [10.326304, 53.964153], [8.420551, 53.964153], [8.420551, 53.394985], [10.326304, 53.394985]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+                           ] ;
+        dct:temporal       [ a                              dct:PeriodOfTime ;
+                             <http://schema.org/startDate>  "1959-04-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+                           ] ;
+        dct:temporal       [ a                              dct:PeriodOfTime ;
+                             <http://schema.org/startDate>  "1959-04-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>
+                           ] ;
+        dct:title          "Teilbebauungsplan TB 616 Hamburg" ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "Bezirksämter, Bezirksamt Altona, Dezernat 4 - Wirtschaft, Bauen und Umwelt, Fachamt Stadt- und Landschaftsplanung"
+                           ] ;
+        dcat:contactPoint  [ a       <http://www.w3.org/2006/vcard/ns#Organization> ;
+                             <http://www.w3.org/2006/vcard/ns#fn>
+                                     "Bezirksämter, Bezirksamt Altona, Dezernat 4 - Wirtschaft, Bauen und Umwelt, Fachamt Stadt- und Landschaftsplanung"
+                           ] ;
+        dcat:distribution  <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_bae84629_5a26_4cbf_92c0_8d0954aa31e6> , <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_181c616c_fed4_4c8c_8176_5ed955f3c3e2> , <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ac9eb602_0d04_4e23_af41_8534f4d7ec9c> , <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ac9eb602_0d04_4e23_af41_8534f4d7ec911> , <http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ac9eb602_0d04_4e23_af41_8534f4d7ec922> ;
+        dcat:keyword       "bodennutzung" , "plis" , "bebauungsplan" , "raumbezogene-information" , "geoinformation" , "teilbebauungsplan" , "inspireidentifiziert" , "bauleitplanung" , "öffentliche-pläne" ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement86124> , <http://projekt-opal.de/measurement86126> , <http://projekt-opal.de/measurement86128> , <http://projekt-opal.de/measurement86123> , <http://projekt-opal.de/measurement86122> , <http://projekt-opal.de/measurement86127> , <http://projekt-opal.de/measurement86125> .
+				
+				
+				
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_bae84629_5a26_4cbf_92c0_8d0954aa31e6>
+        a               dcat:Distribution ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/licenseAttributionByText>
+                "Freie und Hansestadt Hamburg, Bezirksamt Altona, Fachamt Stadt- und Landschaftsplanung, 2016" ;
+        dct:format      "gml" ;
+        dct:language    "http://publications.europa.eu/resource/authority/language/DEU" ;
+        dct:license     <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        dct:title       "Download WFS Bebauungsplan (XPlanGML)" ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        dcat:accessURL  <https://geodienste.hamburg.de/HH_WFS_xplan_dls?service=WFS&request=GetFeature&version=2.0.0&resolvedepth=%2A&StoredQuery_ID=urn:ogc:def:query:OGC-WFS::PlanName&planName=TB616> ;
+        dcat:byteSize   151596 .
+		
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_181c616c_fed4_4c8c_8176_5ed955f3c3e2>
+        a               dcat:Distribution ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/licenseAttributionByText>
+                "Freie und Hansestadt Hamburg, Bezirksamt Altona, Fachamt Stadt- und Landschaftsplanung, 2016" ;
+        dct:format      "HTML" ;
+        dct:language    "http://publications.europa.eu/resource/authority/language/DEU" ;
+        dct:license     <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        dct:title       "Metadatenbeschreibung aus dem MetaVer" ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        dcat:accessURL  <http://metaver.de/trefferanzeige?docuuid=464819EE-0D2A-4CA4-B5A4-026E34488404> ;
+        dcat:byteSize   54506 .
+		
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ac9eb602_0d04_4e23_af41_8534f4d7ec9c>
+        a               dcat:Distribution ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/licenseAttributionByText>
+                "Freie und Hansestadt Hamburg, Bezirksamt Altona, Fachamt Stadt- und Landschaftsplanung, 2016" ;
+        dct:format      "PDF" ;
+        dct:language    "http://publications.europa.eu/resource/authority/language/DEU" ;
+        dct:license     <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        dct:title       "Festsetzungen (Planzeichnung / Verordnung) als PDF Datei" ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        dcat:accessURL  "" ;
+        dcat:byteSize   4622455 .
+		
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ac9eb602_0d04_4e23_af41_8534f4d7ec911>
+        a               dcat:Distribution ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/licenseAttributionByText>
+                "Freie und Hansestadt Hamburg, Bezirksamt Altona, Fachamt Stadt- und Landschaftsplanung, 2016" ;
+        dct:format      "PDF" ;
+        dct:language    "http://publications.europa.eu/resource/authority/language/DEU" ;
+        dct:license     <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        dct:title       "Festsetzungen (Planzeichnung / Verordnung) als PDF Datei" ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        dcat:accessURL  <shttp://daten-hamburg.de/infrastruktur_bauen_wohnen/bebauungsplaene/pdfs/bplan/TB616.pdf> ;
+        dcat:byteSize   4622455 .
+		
+
+<http://projekt-opal.de/distribution/https___europeandataportal_eu_set_distribution_ac9eb602_0d04_4e23_af41_8534f4d7ec922>
+        a               dcat:Distribution ;
+        <http://dcat-ap.de/def/dcatde/1.0.1/licenseAttributionByText>
+                "Freie und Hansestadt Hamburg, Bezirksamt Altona, Fachamt Stadt- und Landschaftsplanung, 2016" ;
+        dct:format      "PDF" ;
+        dct:language    "http://publications.europa.eu/resource/authority/language/DEU" ;
+        dct:license     <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        dct:title       "Festsetzungen (Planzeichnung / Verordnung) als PDF Datei" ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        <http://spdx.org/rdf/terms#checksum>
+                []  ;
+        dcat:byteSize   4622455 .

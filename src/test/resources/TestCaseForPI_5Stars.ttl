@@ -1,0 +1,47 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+
+<http://projekt-opal.de/dataset/https___ckan_govdata_de_0af72fb1_b058_4de4_b99e_369a5a463f24>
+        a                  dcat:Dataset ;
+        dct:description    "Rheinland-pfälzisches Landesprogramm zur Umsetzung des Kommunalinvestitionsförderungsgesetzes (KInvFG)" ;
+        dct:identifier     "1178bbf0-632d-484a-804d-731f0d18242c" ;
+        dct:issued         "2019-03-19 05:14:10.306708" , "2018-02-21T11:24:42.934344" , "2019-03-19 05:14:10.306738" , "2019-03-19 05:14:10.30673" , "2019-03-19 05:14:10.306735" ;
+        dct:license        "" ;
+        dct:modified       "2018-11-28T10:15:53.669402" ;
+        dct:title          "Kommunales_Investitionsprogramm_Rheinland_Pfalz" ;
+        dcat:distribution  <http://projekt-opal.de/distribution/https___ckan_govdata_de_6c879155_773a_4abd_9071_22a77a458591> , <http://projekt-opal.de/distribution/https___ckan_govdata_de_ee08f5df_3b8c_42e4_ba2b_085213f30499> , <http://projekt-opal.de/distribution/https___ckan_govdata_de_160f17a0_ed9e_44b4_8adb_57b2555bca4c> , <http://projekt-opal.de/distribution/https___ckan_govdata_de_f1610c55_13ab_472c_ba2d_41dbf6d48e17> ;
+        dcat:keyword       "Investitionsförderung" , "Rheinland-Pfalz" , "DAKI" ;
+        <http://www.w3.org/ns/dqv#hasQualityMeasurement>
+                <http://projekt-opal.de/measurement9052> , <http://projekt-opal.de/measurement9055> , <http://projekt-opal.de/measurement9058> , <http://projekt-opal.de/measurement9054> , <http://projekt-opal.de/measurement9057> , <http://projekt-opal.de/measurement9053> , <http://projekt-opal.de/measurement9056> .
+				
+	<http://projekt-opal.de/distribution/https___ckan_govdata_de_6c879155_773a_4abd_9071_22a77a458591>
+        a                 dcat:Distribution ;
+        dct:description   "Kommunales_Investitionsprogramm_Rheinland_Pfalz - Anzeige der originären Metadaten" ;
+        dct:format        "HTML" ;
+        dct:title         "Originäre Metadaten" ;
+        dcat:accessURL    "https://www.geoportal.rlp.de/mapbender/php/mod_showMetadata.php?resource=layer&layout=tabs&redirectToMetadataUrl=1&id=54514" ;
+        dcat:downloadURL  "https://www.geoportal.rlp.de/mapbender/php/mod_showMetadata.php?resource=layer&layout=tabs&redirectToMetadataUrl=1&id=54514" .
+
+    <http://projekt-opal.de/distribution/https___ckan_govdata_de_ee08f5df_3b8c_42e4_ba2b_085213f30499>
+        a                 dcat:Distribution ;
+        dct:description   "Ebene: Kommunales_Investitionsprogramm_Rheinland_Pfalz - Anzeige im GeoPortal.rlp" ;
+        dct:format        "Webanwendung" ;
+        dct:title         "GeoPortal.rlp" ;
+        dcat:accessURL    "http://www.geoportal.rlp.de/mapbender/../portal/karten.html?LAYER[zoom]=1&LAYER[id]=54514" ;
+        dcat:downloadURL  "http://www.geoportal.rlp.de/mapbender/../portal/karten.html?LAYER[zoom]=1&LAYER[id]=54514" .
+
+    <http://projekt-opal.de/distribution/https___ckan_govdata_de_160f17a0_ed9e_44b4_8adb_57b2555bca4c>
+        a                 dcat:Distribution ;
+        dct:description   "Ebene: Kommunales_Investitionsprogramm_Rheinland_Pfalz - Vorschau im integrierten Kartenviewer" ;
+        dct:format        "Karte" ;
+        dct:title         "Onlinekarte" ;
+        dcat:accessURL    "https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=54514" ;
+        dcat:downloadURL  "https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=54514" .
+    
+	<http://projekt-opal.de/distribution/https___ckan_govdata_de_f1610c55_13ab_472c_ba2d_41dbf6d48e17>
+        a                 dcat:Distribution ;
+        dct:description   "Ebene: Kommunales_Investitionsprogramm_Rheinland_Pfalz" ;
+        dct:format        "WMS" ;
+        dct:title         "WMS Schnittstelle" ;
+        dcat:accessURL    "https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=54514&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS" ;
+        dcat:downloadURL  "https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=54514&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS" .
